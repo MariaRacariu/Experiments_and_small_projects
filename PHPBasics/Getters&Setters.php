@@ -20,4 +20,5 @@ class User{
 $userOne = new User('Maria', 'maria@email.com', 'Admin123');
 $userTwo = new User('Rasmus', 'rasmus@email.com', 'Password');
 
-echo $userOne->getEmail();
+echo $userOne->getEmail() ;
+echo $userTwo->getEmail();
